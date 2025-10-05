@@ -12,7 +12,7 @@ const NIM_API_BASE = process.env.NIM_API_BASE || 'https://integrate.api.nvidia.c
 const NIM_API_KEY = process.env.NIM_API_KEY;
 
 const MODEL_MAPPING = {
-  'gpt-3.5-turbo': 'meta/llama-3.1-8b-instruct',
+  'qwen-thinking': 'qwen/qwen3-next-80b-a3b-thinking',
   'deepseek-r1-0528': 'deepseek-ai/deepseek-r1-0528',
   'deepseek-v3.1': 'deepseek-ai/deepseek-v3.1'
 };
